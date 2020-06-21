@@ -63,3 +63,44 @@ if (a8 === '1') {
 } else {
     alert('Wrong');
 }
+
+
+//&& and ||-------------------------------------------------------------------------------------------
+
+//1
+const x = Number(prompt('Enter your number: 5, 0, -3 or 2'));
+if (x > 0 && x < 5) {
+    alert('Right');
+} else {
+    alert('Wrong');
+}
+
+//2
+const c = Number(prompt('Enter your number: 5, 0, -3 or 2'));
+let o;
+if (c === 0 || c === 2) {
+    o = c + 7;
+} else {
+    o = c / 10;
+}
+alert(o);
+
+//3
+const p = Number(prompt('Enter your number: 1, 0 and 3'));
+const y = Number(prompt('Enter your number: 3, 6 and 5'));
+let w;
+if (p <= 1 && y >= 3) {
+    w = p + y;
+} else {
+    w = p - y;
+}
+alert(w);
+
+//4
+const r = Number(prompt('Enter your number'));
+const t = Number(prompt('Enter your number'));
+if (r > 2 && r < 11 || t >= 6 && t < 14) {
+    alert('Right');
+} else {
+    alert('Wrong');
+}
