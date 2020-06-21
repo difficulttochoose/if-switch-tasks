@@ -217,3 +217,26 @@ switch (month) {
     }
 }
 alert(timeOfTheYear);
+
+
+//BOOLEAN VARIABLES------------------------------------------------------------------------------
+
+//1
+const test = Boolean(prompt('Enter value: true or false'));
+console.log(test ? 'Right' : 'Wrong');//short record
+
+if (test) {                             //long record
+    console.log('Right');
+} else {
+    console.log('Wrong');
+}
+
+//2
+const test2 = Boolean(prompt('Enter value: true or false'));
+console.log(!test2 ? 'Right' : 'Wrong');//short record
+
+if (!test2) {                             //long record
+    console.log('Right');
+} else {
+    console.log('Wrong');
+}
